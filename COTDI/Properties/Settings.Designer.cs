@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COTDI.Properties {
+namespace CalculationOfIntegral.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

@@ -1,6 +1,6 @@
-﻿namespace COTDI
+﻿namespace CalculationOfIntegral
 {
-    partial class Form4
+    partial class ReferenceForm
     {
         /// <summary>
         /// Required designer variable.
@@ -74,7 +74,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(163)))), ((int)(((byte)(177)))));
-            this.BackgroundImage = global::COTDI.Properties.Resources.Без_имени_441___копия;
+            this.BackgroundImage = global::CalculationOfIntegral.Properties.Resources.Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(836, 262);
             this.Controls.Add(this.linkLabel2);

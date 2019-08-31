@@ -1,6 +1,6 @@
-﻿namespace COTDI
+﻿namespace CalculationOfIntegral
 {
-    partial class AboutBox1
+    partial class AboutTheProgram
     {
         /// <summary>
         /// Требуется переменная конструктора.
@@ -38,7 +38,7 @@
             // 
             this.logoPictureBox.BackColor = System.Drawing.Color.Transparent;
             this.logoPictureBox.Dock = System.Windows.Forms.DockStyle.Top;
-            this.logoPictureBox.Image = global::COTDI.Properties.Resources._91;
+            this.logoPictureBox.Image = global::CalculationOfIntegral.Properties.Resources.Logo;
             this.logoPictureBox.Location = new System.Drawing.Point(15, 15);
             this.logoPictureBox.Margin = new System.Windows.Forms.Padding(5);
             this.logoPictureBox.Name = "logoPictureBox";
@@ -79,13 +79,13 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(311, 42);
             this.label3.TabIndex = 32;
-            this.label3.Text = "Разработчик: студент группы 1ПКС-14 Васильев Сергей Артурович";
+            this.label3.Text = "Разработчик: студент группы 1ПКС-14 Васильев Сергей Артурович\r\n";
             // 
             // AboutBox1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::COTDI.Properties.Resources.Без_имени_441___копия;
+            this.BackgroundImage = global::CalculationOfIntegral.Properties.Resources.Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(386, 326);
             this.Controls.Add(this.label3);

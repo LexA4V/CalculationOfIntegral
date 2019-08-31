@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace COTDI
+namespace CalculationOfIntegral
 {
-    public partial class Form4 : Form
+    public partial class ReferenceForm : Form
     {
-        public Form4()
+        public ReferenceForm()
         {
             InitializeComponent();
         }

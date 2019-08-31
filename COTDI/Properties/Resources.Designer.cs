@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COTDI.Properties {
+namespace CalculationOfIntegral.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace COTDI.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("COTDI.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CalculationOfIntegral.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,9 +63,9 @@ namespace COTDI.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _31 {
+        internal static System.Drawing.Bitmap Background {
             get {
-                object obj = ResourceManager.GetObject("31", resourceCulture);
+                object obj = ResourceManager.GetObject("Background", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace COTDI.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _91 {
+        internal static System.Drawing.Bitmap Logo {
             get {
-                object obj = ResourceManager.GetObject("91", resourceCulture);
+                object obj = ResourceManager.GetObject("Logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace COTDI.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Без_имени_1 {
+        internal static System.Drawing.Bitmap RedLine2 {
             get {
-                object obj = ResourceManager.GetObject("Без имени-1", resourceCulture);
+                object obj = ResourceManager.GetObject("RedLine2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,29 +93,9 @@ namespace COTDI.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Без_имени_441 {
+        internal static System.Drawing.Bitmap StartBackground {
             get {
-                object obj = ResourceManager.GetObject("Без имени-441", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Без_имени_441___копия {
-            get {
-                object obj = ResourceManager.GetObject("Без имени-441 - копия", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Без_уФ1 {
-            get {
-                object obj = ResourceManager.GetObject("Без уФ1", resourceCulture);
+                object obj = ResourceManager.GetObject("StartBackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

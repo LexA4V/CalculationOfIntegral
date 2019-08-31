@@ -1,6 +1,6 @@
-﻿namespace COTDI
+﻿namespace CalculationOfIntegral
 {
-    partial class Form1
+    partial class StartsForm
     {
         /// <summary>
         /// Требуется переменная конструктора.
@@ -70,7 +70,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::COTDI.Properties.Resources._91;
+            this.pictureBox1.Image = global::CalculationOfIntegral.Properties.Resources.Logo;
             this.pictureBox1.Location = new System.Drawing.Point(21, 26);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(262, 98);
@@ -95,7 +95,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::COTDI.Properties.Resources.Без_имени_441;
+            this.BackgroundImage = global::CalculationOfIntegral.Properties.Resources.StartBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(527, 309);
             this.Controls.Add(this.label1);

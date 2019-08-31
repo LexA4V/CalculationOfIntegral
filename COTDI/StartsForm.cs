@@ -1,24 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
-namespace COTDI
+namespace CalculationOfIntegral
 {
-    public partial class Form1 : Form
+    public partial class StartsForm : Form
     {
-        public Form1()
+        public StartsForm()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            G G = new G();
+            MenuForm G = new MenuForm();
             this.Hide();
             G.ShowDialog();
             this.Close();
