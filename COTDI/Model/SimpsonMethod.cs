@@ -41,6 +41,7 @@
         {
             double h, k;
 
+
             if (!CheckValidator()) return double.NaN;
 
             h = (_oXFinish - _oXStart) / _xNumberOfSections;
@@ -68,7 +69,7 @@
             {
                 for (int j = 0; j < _xNumberOfSections; j++)
                 {
-                    f[i, j] = 1 / (x[j] * y[i]);
+                    f[i, j] = 1 / (x[j] * y[i]); //интеграл?
                     S += _matrixL[i, j] * f[i, j];
                 }
             }

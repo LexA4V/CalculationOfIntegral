@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace CalculationOfIntegral
 {
@@ -18,12 +11,12 @@ namespace CalculationOfIntegral
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            webBrowser1.Navigate(Application.StartupPath + "\\Документы\\1.jpg");
+            pictureBox1.Image = Properties.Resources._1;
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            webBrowser1.Navigate(Application.StartupPath + "\\Документы\\2.jpg");
+            pictureBox1.Image = Properties.Resources._2;
         }
     }
 }

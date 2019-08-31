@@ -90,6 +90,7 @@
             this.tBYStart.Size = new System.Drawing.Size(50, 30);
             this.tBYStart.TabIndex = 0;
             this.tBYStart.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tBYStart.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.DOUBLE_KeyPress);
             // 
             // label5
             // 
@@ -113,6 +114,7 @@
             this.tBYFinish.Name = "tBYFinish";
             this.tBYFinish.Size = new System.Drawing.Size(50, 30);
             this.tBYFinish.TabIndex = 1;
+            this.tBYFinish.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.DOUBLE_KeyPress);
             // 
             // label2
             // 
@@ -148,6 +150,7 @@
             this.tBYNumberOfSections.Size = new System.Drawing.Size(50, 30);
             this.tBYNumberOfSections.TabIndex = 2;
             this.tBYNumberOfSections.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tBYNumberOfSections.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.UINT_KeyPress);
             // 
             // groupBoxX
             // 
@@ -206,6 +209,7 @@
             this.tBXFinish.Name = "tBXFinish";
             this.tBXFinish.Size = new System.Drawing.Size(50, 30);
             this.tBXFinish.TabIndex = 1;
+            this.tBXFinish.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.DOUBLE_KeyPress);
             // 
             // textBox9
             // 
@@ -233,6 +237,7 @@
             this.tBXStart.Size = new System.Drawing.Size(49, 30);
             this.tBXStart.TabIndex = 0;
             this.tBXStart.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tBXStart.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.DOUBLE_KeyPress);
             // 
             // label11
             // 
@@ -257,7 +262,7 @@
             this.tBXNumberOfSections.Size = new System.Drawing.Size(50, 30);
             this.tBXNumberOfSections.TabIndex = 2;
             this.tBXNumberOfSections.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tBXNumberOfSections.Leave += new System.EventHandler(this.textBox1_Leave);
+            this.tBXNumberOfSections.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.UINT_KeyPress);
             // 
             // label1
             // 
@@ -313,7 +318,7 @@
             this.brnToBack.TabIndex = 45;
             this.brnToBack.Text = "НАЗАД";
             this.brnToBack.UseVisualStyleBackColor = false;
-            this.brnToBack.Click += new System.EventHandler(this.button3_Click);
+            this.brnToBack.Click += new System.EventHandler(this.btnToBack_Click);
             // 
             // menuStrip1
             // 
